@@ -1,0 +1,24 @@
+.Contents {
+    padding: 20px 0;
+    box-shadow: 3px 3px 13px rgb(207, 207, 207);
+    border-radius: 2px;
+    width: 1080px;
+    margin: 40px auto;
+    display: flex;
+
+}
+
+.Logo {
+    width: 200px;
+    padding: 0 20px;
+}
+
+.Logo img {
+    width: 100%;
+}
+
+.Address {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
