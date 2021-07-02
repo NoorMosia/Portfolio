@@ -1,0 +1,16 @@
+.Tech {
+    height: 100vh;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.Heading {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(0, 16, 70);
+}
+
+.Contents {
+    padding: 40px 0;
+}

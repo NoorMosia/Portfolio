@@ -1,0 +1,30 @@
+
+.Project {
+    display: flex;
+}
+
+.Left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.Left img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Right {
+    width: 100%;
+}
+
+.AppName {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.Explain {
+    padding: 20px 0;
+}
