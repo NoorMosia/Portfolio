@@ -1,8 +1,8 @@
 .Contents {
-    padding: 20px 0;
+    padding: 40px 20px;
     box-shadow: 3px 3px 13px rgb(207, 207, 207);
     border-radius: 2px;
-    max-width: 1080px;
+    max-width: 900px;
     margin: 40px auto;
     display: flex;
 
@@ -15,6 +15,11 @@
 
 .Logo img {
     width: 100%;
+}
+
+.Text {
+
+    padding: 0 20px ;
 }
 
 .Address {

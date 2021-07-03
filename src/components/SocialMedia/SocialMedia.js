@@ -4,7 +4,7 @@ import * as styles from "./SocialMedia.module.css";
 import Fade from "react-reveal/Fade";
 
 const SocialMedia = props => {
-    return <Fade top>
+    return <Fade bottom>
         <div className={styles.Contents}>
             <div className={styles.Logo}>
                 <img src={props.logo} alt="gmail logo" />
@@ -18,9 +18,6 @@ const SocialMedia = props => {
                     mollitia soluta provident minima, aperiam accusamus. Et, maxime
                     nobis!
                 </div>
-            </div>
-            <div className={styles.Logo}>
-                {/* <img src={Gmail} alt="gmail logo" /> */}
             </div>
         </div>
     </Fade>
