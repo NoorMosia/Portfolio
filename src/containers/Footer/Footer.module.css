@@ -1,0 +1,9 @@
+.Footer {
+    background: rgb(26, 26, 26);
+}
+
+.Copyright {
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(212, 212, 212);
+}
