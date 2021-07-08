@@ -7,26 +7,22 @@ const Project = (Props) => {
     return <Fade >
         <div className={styles.Project}>
             <div className={styles.Left}>
-                <img src={Props.image} alt="corona app" />
+                <img src={Props.project.image} alt="corona app" />
             </div>
             <div className={styles.Right}>
-                <div className={styles.AppName}>{Props.title}</div>
+                <div className={styles.AppName}>{Props.project.name}</div>
 
                 <div className={styles.Explain}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates delectus laboriosam placeat voluptatibus cupiditate
-                    hic commodi! Maxime dolores temporibus tempore cupiditate
-                    mollitia soluta provident minima, aperiam accusamus. Et, maxime
-                    nobis!
+                    {Props.project.description}
                 </div>
 
                 <div className={styles.Links}>
-                    <div className="btn">
+                    <a href="/" className={styles.Black}>
                         code
-                    </div>
-                    <div className="btn">
+                    </a>
+                    <a href="/" className={styles.Blue}>
                         website
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
