@@ -13,7 +13,9 @@ const Projects = [
         Uses intactive maps and graphs to aid understanding of the increasing/decreasing 
         numbers. built with React and uses tools such as Firebase, graphs and 
         google maps`,
-        image: RonaImg
+        image: RonaImg,
+        github: "",
+        url: ""
     },
     {
         name: "Fantasy Manager",
@@ -21,13 +23,17 @@ const Projects = [
         teams based on real life football events and gain points based on how the players
         they picked perform in real life. Built with Reactjs and uses the Fantasy Premier
         League API extensively.`,
-        image: Fpl
+        image: Fpl,
+        github: "",
+        url: ""
     },
     {
         name: "Text Encryptor",
         description: `Web app that allows to encrypt and decrypt text using different
         encryption methods. Built with HTML, CSS and good old Vanilla Javascript.`,
-        image: Cipher
+        image: Cipher,
+        github: "",
+        url: ""
     },
 
 ]
