@@ -40,7 +40,7 @@ const Projects = [
 
 const Tech = () => {
     const ProjectsComponets = Projects.map(project => {
-        return <Project project={project} />
+        return <Project project={project} key={project.description} />
     })
 
 
