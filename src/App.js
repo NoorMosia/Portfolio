@@ -13,7 +13,7 @@ function App() {
     <div className={styles.App}>
       ‍
       <Helmet>
-        <title>Mosia</title>
+        <title>Mosia |</title>
         <meta name="description" content="Mosia's Portfolio Website" />
 
         <meta itemprop="name" content="Mosia" />
