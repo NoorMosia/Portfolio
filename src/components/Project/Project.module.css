@@ -70,4 +70,16 @@ a.Blue {
     .SecondaryText {
         font-size: 12px;
     }
-  }
+}
+
+@media only screen and (max-width: 650px){
+    .Project {
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Left {
+        width: 100%;
+    }
+}
