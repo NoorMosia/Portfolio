@@ -21,7 +21,7 @@ const SocialsDetails = [
         in different languages. Some in C++, others in Java and most in Javascript. 
         It would be wise for you to tread carefully in there.`,
         imageUrl: Github,
-        link: ""
+        link: "https://github.com/NoorMosia"
     },
     {
         name: "mosianoor",
@@ -30,7 +30,7 @@ const SocialsDetails = [
         this is where I'd advise you to go. I don't hold back so everything that is 
         important to me you will find here.`,
         imageUrl: Twitter,
-        link: ""
+        link: "https://twitter.com/MosiaNoor"
     },
     {
         name: "mosia_fpl",
@@ -38,7 +38,7 @@ const SocialsDetails = [
         please don't judge me for having 2. This is where you'll find my sports posts,
         mostly Fantasy Premier League related.`,
         imageUrl: Twitter,
-        link: ""
+        link: "https://mobile.twitter.com/mosia_fpl"
     }
 ]
 

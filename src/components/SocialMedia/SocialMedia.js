@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 const SocialMedia = props => {
     return <Fade bottom>
-        <div className={styles.Contents}>
+        <a href="https://twitter.com" rel="noreferrer" target="_blank" className={styles.Contents}>
             <div className={styles.Logo}>
                 <img src={props.sm.imageUrl} alt="gmail logo" />
             </div>
@@ -15,7 +15,7 @@ const SocialMedia = props => {
                     {props.sm.description}
                 </div>
             </div>
-        </div>
+        </a>
     </Fade>
 }
 
