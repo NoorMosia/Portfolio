@@ -14,8 +14,8 @@ const Projects = [
         numbers. built with React and uses tools such as Firebase, graphs and 
         google maps`,
         image: RonaImg,
-        github: "",
-        url: ""
+        github: "https://github.com/NoorMosia/corona-stats",
+        url: "https://covid-c4d07.firebaseapp.com/home"
     },
     {
         name: "Fantasy Manager",
@@ -24,18 +24,17 @@ const Projects = [
         they picked perform in real life. Built with Reactjs and uses the Fantasy Premier
         League API extensively.`,
         image: Fpl,
-        github: "",
-        url: ""
+        github: "https://github.com/NoorMosia/FPLHITS",
+        url: "https://github.com/NoorMosia/FPLHITS"
     },
     {
         name: "Text Encryptor",
         description: `Web app that allows to encrypt and decrypt text using different
         encryption methods. Built with HTML, CSS and good old Vanilla Javascript.`,
         image: Cipher,
-        github: "",
-        url: ""
+        github: "https://github.com/NoorMosia/cipher",
+        url: "https://noormosia.github.io/cipher/"
     },
-
 ]
 
 const Tech = () => {
@@ -51,9 +50,6 @@ const Tech = () => {
 
         <div className={styles.Contents}>
             {ProjectsComponets}
-            {/* <Project image={RonaImg} title="Corona tracker" />
-            <Project image={Fpl} title="Fantasy manager" />
-            <Project image={Cipher} title="Text encryptor" /> */}
         </div>
     </div>
 }

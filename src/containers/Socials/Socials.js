@@ -38,7 +38,7 @@ const SocialsDetails = [
         please don't judge me for having 2. This is where you'll find my sports posts,
         mostly Fantasy Premier League related.`,
         imageUrl: Twitter,
-        link: "https://mobile.twitter.com/mosia_fpl"
+        link: "https://twitter.com/mosia_fpl"
     }
 ]
 
@@ -50,9 +50,7 @@ const Socials = () => {
         <h2 className={styles.Heading}>
             Socials
         </h2>
-
         {SocialComponents}
-
     </div>
 }
 

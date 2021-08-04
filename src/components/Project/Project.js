@@ -17,10 +17,10 @@ const Project = (Props) => {
                 </div>
 
                 <div className={styles.Links}>
-                    <a href="/" className={styles.Black}>
+                    <a href={Props.project.github} target="_blank" rel="noreferrer" className={styles.Black}>
                         code
                     </a>
-                    <a href="/" className={styles.Blue}>
+                    <a href={Props.project.url} target="_blank" rel="noreferrer" className={styles.Blue}>
                         website
                     </a>
                 </div>

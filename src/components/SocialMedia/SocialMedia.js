@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 const SocialMedia = props => {
     return <Fade bottom>
-        <a href="https://twitter.com" rel="noreferrer" target="_blank" className={styles.Contents}>
+        <a href={props.sm.link} rel="noreferrer" target="_blank" className={styles.Contents}>
             <div className={styles.Logo}>
                 <img src={props.sm.imageUrl} alt="gmail logo" />
             </div>
