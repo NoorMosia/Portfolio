@@ -24,19 +24,9 @@ const SocialsDetails = [
         link: "https://github.com/NoorMosia"
     },
     {
-        name: "mosianoor",
-        description: `If you were a spy and needed to know as much about me as possible
-        about me,
-        this is where I'd advise you to go. I don't hold back so everything that is 
-        important to me you will find here.`,
-        imageUrl: Twitter,
-        link: "https://twitter.com/MosiaNoor"
-    },
-    {
         name: "mosia_fpl",
-        description: `Yes, another twitter account. Netflix has about 99 of them so
-        please don't judge me for having 2. This is where you'll find my sports posts,
-        mostly Fantasy Premier League related.`,
+        description: `This is my twitter account. I am a football fanatic and this is
+        the place where I post most of my footballing opinions.`,
         imageUrl: Twitter,
         link: "https://twitter.com/mosia_fpl"
     }

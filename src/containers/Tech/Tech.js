@@ -4,9 +4,21 @@ import * as styles from "./Tech.module.css";
 import RonaImg from "./rona.png";
 import Cipher from "./cipher.png";
 import Fpl from "./fpl.png";
+import Teal from "./teal.jpeg";
 import Project from "../../components/Project/Project";
 
 const Projects = [
+    {
+        name: "Teal Tutor",
+        description: `This app connects students with tutors around the world.
+        It has a live streaming feature that brings classroom feel to online learning,
+        and allows tutors to share resource files with their students. 
+        Built with reactjs and and ChakraUI. Also uses WebRTC for online 
+        classroom feature.`,
+        image: Teal,
+        github: "https://github.com/NoorMosia/tealtutors",
+        url: "https://github.com/NoorMosia/tealtutors"
+    },
     {
         name: "Corona Tracker",
         description: `Web app that help track corona virus cases around the world. 
